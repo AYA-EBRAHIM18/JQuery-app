@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQuery Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/sweetalert2.min.css" />
+    <script
+      src="https://kit.fontawesome.com/201e436313.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="home vh-100" id="home">
+      <div class="layer d-flex">
+        <div class="navbar-section d-flex gap-3 align-items-center ">
+          <div class=" nav text-white d-flex flex-column align-items-center position-fixed top-0  bg-black" id="nav">
+            <i class="fa-solid fa-xmark nav-close text-danger"></i>
+            <a href="#home">Home</a>
+            <a href="#duration">Duration</a>
+            <a href="#counter">Details</a>
+            <a href="#contact">Contact</a>
+            
+
+          </div>
+        </div>
+       
+
+        <div class="home-content d-flex flex-column justify-content-center align-items-center  w-100 text-center ">
+          <h1 >Egyptian Party</h1>
+          <p>Let's have fun</p>
+          <div class="open order-2 fs-3 text-white align-self-baseline"><i class="fa-solid fa-bars"></i>OPEN</div>
+        </div>
+      </div>
+    </div>
+    <!-- duration section -->
+    <div class="duration mt-5" id="duration">
+      <div class="container">
+        <div class="singers text-center text-white w-50 m-auto">
+          <div class="box">
+            <h3 class="down">Singer One</h3>
+            <div class="toggle p-3 text-black ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non vitae et provident! Fugit omnis rerum, quis nesciunt, pariatur ducimus dolorem enim ut dicta voluptatum autem, quae id quasi expedita nostrum.</div>
+          </div>
+          <div class="box">
+            <h3  class="down">Singer Two</h3>
+            <div class="toggle p-3 text-black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non vitae et provident! Fugit omnis rerum, quis nesciunt, pariatur ducimus dolorem enim ut dicta voluptatum autem, quae id quasi expedita nostrum.</div>
+
+          </div>
+          <div class="box">
+            <h3  class="down">Singer Three</h3>
+            <div class="toggle p-3 text-black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non vitae et provident! Fugit omnis rerum, quis nesciunt, pariatur ducimus dolorem enim ut dicta voluptatum autem, quae id quasi expedita nostrum.</div>
+
+          </div>
+          <div class="box">
+            <h3  class="down">Singer Four</h3>
+            <div class="toggle p-3 text-black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non vitae et provident! Fugit omnis rerum, quis nesciunt, pariatur ducimus dolorem enim ut dicta voluptatum autem, quae id quasi expedita nostrum.</div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="counter-section my-5 text-center text-white" id="counter">
+        <div class="layer d-flex align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="counter day"></div>
+              </div>
+              <div class="col-md-3">
+                <div class="counter hour"></div>
+              </div>
+              <div class="col-md-3">
+                <div class="counter minute"></div>
+              </div>
+              <div class="col-md-3">
+                <div class="counter second"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="contact-header">
+          <h1 class="fw-bold">JOIN US</h1>
+          <div class="para text-center text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+          </div>
+        </div>
+        <div class="contact-section">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="details">
+                <h5 class="fw-bold">CONTACT INFO</h5>
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center text-center text-muted"
+                >
+                  <p>
+                    Why you should hire me writeup Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit. Aenean commodo ligula eget
+                    dolor. Aenean massa. Cum sociis natoque nascetur ridiculus
+                    mus.
+                  </p>
+                  <div class="icons">
+                    <ul class="lh-lg p-0">
+                      <li>
+                        <i class="fa-solid fa-location-dot text-muted mx-1"></i>
+                        <a href="" class="text-dark">
+                          New Street 22545, Nexa Road, New York City, USA
+                        </a>
+                      </li>
+
+                      <li>
+                        <i class="fa-regular fa-envelope text-muted mx-1"></i>
+                        <a href="" class="text-danger"> hello@uigrid.com </a>
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-mobile-screen text-muted mx-1"
+                        ></i>
+                        <a href="" class="text-dark">001-000-000-000 </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+             <form action="">
+              <div
+              class="contact-app d-flex flex-column justify-content-center align-items-center gap-4"
+            >
+              <input
+                type="text"
+                placeholder="Enter Name"
+                class="form-control"
+              />
+              <input
+                type="text"
+                placeholder="Enter Email"
+                class="form-control"
+              />
+              <textarea
+                id=""
+                placeholder="Enter Message"
+                class="form-control"
+                rows="5"
+              ></textarea>
+             <div class="me-auto ">
+              <h6 class="word"><span class="count">100</span> Characters Remaining</h5>
+                <button class="p-3 text-white bg-danger border-0">SEND MESSAGE</button>
+             </div>
+            </div>
+             </form>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
